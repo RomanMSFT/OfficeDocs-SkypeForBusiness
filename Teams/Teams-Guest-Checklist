@@ -1,0 +1,73 @@
+---
+title: Teams Guest Checklist
+author: romanma
+ms.author: romanma
+manager: lolaj
+ms.date: 2/15/18
+ms.topic: article
+ms.service: msteams
+ms.reviewer: laal
+description: Setup Microsoft Teams Guest Access step by step.
+MS.collection: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
+---
+
+To ensure Guest Access is enabled/configured according to the preferences of your company, review and configure the following:
+=================================
+
+Teams Settings:
+o  Guest access enabled at tenant level:
+► At minimum to support Guests, this must be "on".
+	1. Login to O3565 admin center 
+	2. Click on Settings and then Services & add-ins
+	3. Select Microsoft Teams
+	4. Click on drop down Settings by User/License type and select guest
+	5. Ensure “Turn Microsoft Teams on or off for all users of this type” is enabled
+
+    
+![Screenshot shows an example of a Teams Settings toggle. TeamsSettings1.png](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+  
+    
+□ Team/Channel specific Settings:
+![Screenshot shows an example of a Team/Channel Settings toggle. TeamsSettings2.png](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+
+
+Relevant documents to review:
+https://docs.microsoft.com/en-us/MicrosoftTeams/guest-access
+
+ Configuration Options Outside Teams admin center/client:
+================================= 
+    
+<https://docs.microsoft.com/en-us/microsoftteams/teams-dependencies> 
+
+□ Office 365 Settings
+Security and Privacy
+Sharing
+
+This setting is equal to Members can invite. Must be set to ON. 
+![Screenshot shows an example of a Team/Channel Settings toggle. TeamsSettings2.png](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+    
+    
+
+
+|**Capability in Teams**|**Teams user in the organization**|**Guest user**|
+|:-----|:-----|:-----|
+|Create a channel  <br/>  *Team owners control this setting.*  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participate in a private chat  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participate in a channel conversation  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Post, delete, and edit messages  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Share a channel file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Share a chat file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Add apps (tabs, bots, or connectors)  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create tenant-wide and teams/channels guest access policies  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create a team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Discover and join a public team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|View organization chart  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+   
+
+    
+> [!NOTE]
+> Office 365 admins control the features available to guests. 
+  
