@@ -38,6 +38,15 @@ Meetings and calls
 |Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 20    |
 
+Endpoints 
+------------------
+
+|Feature     | Maximum limit |
+|------------|---------------|
+|Max Number concurrent endpoints  | no limit    |
+Note: system requirements apply
+
+
 Storage
 -------
 
