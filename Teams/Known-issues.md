@@ -122,6 +122,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of `C:\users\<user>\appData` is changed by moving the `C:\users` folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
+Proposed by romanma 2-Oct, 2018
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Teams taskbar icon does not react to shift key modifier on Windows 10 in multi-monitor scenario.  <br/> |Teams does not respond to shift key modifier when the window is rendered off screen. This is a known limitation in Windows, including but mot limited to, MS Teams - No ETA  <br/> |To workaround, press Alt+Spacebar, Press M, then move Teams window back to active monitor  <br/> |10/2/18  <br/> |
+
 ## Environment
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
